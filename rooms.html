@@ -3,76 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Luxury Hotel — Rooms</title>
+  <title>The Luxury Hotel - Rooms</title>
   <link rel="stylesheet" href="css/styles.css">
-  <script defer src="js/script.js"></script>
 </head>
 <body>
 
-  <!-- Header / Navigation -->
+  <!-- Header -->
   <header>
     <div class="container header-inner">
       <a href="index.html" class="logo">The Luxury Hotel</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
       <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
           <li><a href="rooms.html" class="active">Rooms</a></li>
+          <li><a href="staff.html">Staff</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <button class="nav-toggle">&#9776;</button>
     </div>
   </header>
 
-  <!-- Hero / Page Banner -->
+  <!-- Hero -->
   <section class="hero rooms-hero">
-    <div class="container">
+    <img src="images/rooms-hero.jpg" alt="Hotel Rooms" class="hero-img">
+    <div class="hero-text">
       <h1>Our Rooms</h1>
-      <p>Luxury and comfort tailored for your stay</p>
+      <p>Luxury and comfort tailored for every guest</p>
     </div>
   </section>
 
-  <!-- Rooms Grid -->
-  <section class="rooms-grid container">
-    <div class="room-card">
-      <img src="images/placeholder1.jpg" alt="Deluxe Room">
-      <div class="room-info">
-        <h3>Deluxe Room</h3>
-        <p>Spacious and elegant with modern amenities for a relaxing stay.</p>
-        <p class="price">Kes 12,000 / night</p>
-        <a href="contact.html" class="btn">Book Now</a>
+  <!-- Rooms -->
+  <section class="rooms-section container">
+    <div class="rooms-grid">
+      <div class="room-card">
+        <img src="images/room1.jpg" alt="Deluxe Room">
+        <div class="room-info">
+          <h3>Deluxe Room</h3>
+          <p>Spacious room with king-size bed</p>
+          <p class="price">KSh 12,000 / night</p>
+          <a href="contact.html" class="btn">Book Now</a>
+        </div>
       </div>
-    </div>
-
-    <div class="room-card">
-      <img src="images/placeholder2.jpg" alt="Executive Suite">
-      <div class="room-info">
-        <h3>Executive Suite</h3>
-        <p>Perfect for business and leisure, offering premium comfort.</p>
-        <p class="price">Kes 15,000</p> / night</p>
-        <a href="contact.html" class="btn">Book Now</a>
+      <div class="room-card">
+        <img src="images/room2.jpg" alt="Suite">
+        <div class="room-info">
+          <h3>Suite</h3>
+          <p>Luxury suite with lounge area</p>
+          <p class="price">KSh 20,000 / night</p>
+          <a href="contact.html" class="btn">Book Now</a>
+        </div>
       </div>
-    </div>
-
-    <div class="room-card">
-      <img src="images/placeholder3.jpg" alt="Family Room">
-      <div class="room-info">
-        <h3>Family Room</h3>
-        <p>Spacious enough for the whole family with cozy comfort.</p>
-        <p class="price">Kes 18,000 / night</p>
-        <a href="contact.html" class="btn">Book Now</a>
+      <div class="room-card">
+        <img src="images/room3.jpg" alt="Standard Room">
+        <div class="room-info">
+          <h3>Standard Room</h3>
+          <p>Comfortable room for a pleasant stay</p>
+          <p class="price">KSh 8,000 / night</p>
+          <a href="contact.html" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="room-card">
+        <img src="images/room4.jpg" alt="Executive Room">
+        <div class="room-info">
+          <h3>Executive Room</h3>
+          <p>Modern amenities and extra space</p>
+          <p class="price">KSh 15,000 / night</p>
+          <a href="contact.html" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="room-card">
+        <img src="images/room5.jpg" alt="Presidential Suite">
+        <div class="room-info">
+          <h3>Presidential Suite</h3>
+          <p>Top-tier luxury with panoramic views</p>
+          <p class="price">KSh 35,000 / night</p>
+          <a href="contact.html" class="btn">Book Now</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 The Luxury Hotel</p>
-      <p>Tom Mboya Street, Nairobi, Nairobi | Phone: +254712345678 | Email: info@theluxuryhotel.com</p>
-    </div>
+    <p>&copy; 2025 The Luxury Hotel. All Rights Reserved.</p>
+    <p>Tom Mbya Street, Nairobi, Kenya | Phone: +254 700 000 000 | Email: info@theluxuryhotel.co.ke</p>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
