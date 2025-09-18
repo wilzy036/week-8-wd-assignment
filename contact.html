@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grandstay Hotel — Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Grandstay Hotel</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Page Banner -->
+  <section class="hero contact-hero">
+    <div class="container">
+      <h1>Contact / Book a Room</h1>
+      <p>Fill out the form below and we’ll get back to you promptly.</p>
+    </div>
+  </section>
+
+  <!-- Booking / Contact Form -->
+  <section class="contact-form container">
+    <h2>Book Your Stay</h2>
+    <form id="bookingForm" novalidate>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+123 456 7890">
+
+      <label for="checkin">Check-in Date</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Check-out Date</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <label for="guests">Guests</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+      <label for="roomType">Room Type</label>
+      <select id="roomType" name="roomType" required>
+        <option value="">Select a Room</option>
+        <option value="deluxe">Deluxe Room</option>
+        <option value="executive">Executive Suite</option>
+        <option value="family">Family Room</option>
+      </select>
+
+      <label for="message">Special Requests / Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Grandstay Hotel</p>
+      <p>123 Main Street, City, Country | Phone: +123 456 7890 | Email: info@grandstay.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
