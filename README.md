@@ -86,8 +86,8 @@ Other options: GitHub Pages, Vercel.
 
 ## Contact Information (Placeholder)
 
-- Address: Tom Mbya Street, Nairobi, Kenya  
-- Phone: +254 700 000 000  
+- Address: Tom Mboya Street, Nairobi, Kenya  
+- Phone: +254 712 345 678  
 - Email: info@theluxuryhotel.co.ke  
 
 ---
